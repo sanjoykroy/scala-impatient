@@ -6,7 +6,7 @@ package chapterthree
  */
 object QuestionFive {
   def main(args: Array[String]) {
-     val arr = Array(1.0, 2.5, 3.5, 4.0, 5.5)
-     println("Average :: "+ arr.sum / arr.length)
+    val arr = Array(1.0, 2.5, 3.5, 4.0, 5.5)
+    println("Average :: "+ arr.sum / arr.length)
   }
 }
