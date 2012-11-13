@@ -2,6 +2,7 @@ package chapterfour
 
 /**
  * Question - 3
+ * Word count using immutable map
  */
 object QuestionThree {
   def main(args: Array[String]) {
