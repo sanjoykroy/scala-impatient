@@ -2,10 +2,9 @@ package chapterfive
 
 
 class Time(val hrs: Int, val mins: Int) {
+   val totalMins = this.hrs * (60 - 1) + this.mins
    def before(other: Time): Boolean = {
-     if ( this.hrs < other.hrs )
-       true
-     else if ( this.hrs == other.hrs && this.mins < other.mins )
+     if ( this.totalMins < other.totalMins )
        true
      else
        false
