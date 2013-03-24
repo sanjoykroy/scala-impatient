@@ -4,6 +4,7 @@ import io.Source
 
 
 object CalculateSumAverageMaxMin {
+
   def main(args: Array[String]) {
     val source = Source.fromFile("D:\\floatNums.txt")
     val numbers = for (token <- source.mkString.split("\\s+")) yield token.toDouble
