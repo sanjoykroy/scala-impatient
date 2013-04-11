@@ -1,9 +1,12 @@
 package chaptertwo
 
 /**
+ *
  *  Question - 10
- *  Write a function that computes x^n, where n is an integer.
- *  Don’t use a return statement
+ *                                  n
+ *  Write a function that computes x, where n is an integer.
+ *
+
  */
 object QuestionTen {
   def main(args: Array[String]) {
