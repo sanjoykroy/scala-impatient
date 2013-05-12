@@ -1,8 +1,5 @@
 package chaptereleven
 
-import java.io.File
-
-
 class RichFileSeq(f: String) {
   private val filePath: String= f
 }
