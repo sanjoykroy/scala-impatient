@@ -12,5 +12,4 @@ object QuestionSeven {
   }
 
   def adjustToPair(fun: (Int, Int) => Int) =  (x: (Int, Int)) => fun(x._1, x._2)
-
 }
